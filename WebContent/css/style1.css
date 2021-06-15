@@ -1,0 +1,183 @@
+@charset "EUC-KR";
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap');
+
+body {
+	background-color:#f4f4f4;
+	text-align:center;
+	}
+
+#logo{
+	display:inline-block;
+	
+}
+#logo a{
+		color:#fadfe8;
+	}
+
+.btn1 {
+  font-family: 'Gugi', cursive;
+  font-size:20px;
+  display: inline-block;
+  background: #ff4486;
+  color: #fadfe8;
+  border: none;
+  border-radius: 8px; cursor:pointer;
+  padding:10px 14px;
+ 
+
+}
+
+
+ul{
+	list-style: none;
+	text-align:center;
+}
+
+li{
+	float:left;
+	margin-left:20px;
+	text-align:center;
+}
+
+#hd_box{
+	padding: 3em 0 3em 0;
+}
+
+
+a { text-decoration:none }
+
+.top_box{ padding-left:70em;
+		  }
+
+
+#main-menu {
+	width:1000px;
+	margin:0 auto;
+    height:60px;
+    padding-top:10px;
+    padding-left:10em;
+    padding-bottom:20px;
+    border-bottom:2px solid #ccc;
+    font-family:'Gugi', cursive;
+    text-align:center;
+}
+
+
+
+#main-menu ul{
+    padding-top:10px; 
+    padding-bottom:5px;
+      }
+      
+  #main-menu li {
+  	margin-left:30px;
+  
+  
+  }
+  
+  #main-menu a:link, #main-menu a:visited{
+    display:block;
+    font-size:30px;
+    color:#ff4486;
+    padding: 10px; 
+    text-decoration: none;  
+    text-align: center;
+  }
+  
+  #main-menu a:hover,  #main-menu a:focus {
+    background:#fadfe8;
+    color:#fff;  
+  }
+  
+
+
+#logo h1 {
+			background: #ff4486;
+			color: #fff;
+			border-radius: 8px;
+			font-family:'Gugi', cursive;
+			font-weight: 400;
+			padding: 0.25em 1.2em 0.25em 1.2em;
+			font-size: 3.25em;
+			letter-spacing: 0.05em;
+			display: inline-block;
+			vertical-align:middle;
+			
+		}
+
+.carousel {width:1200px; height:500px; margin-left:7%;
+			}
+
+
+.box1{
+	font-family:'Staatliches', cursive;
+	font-size:2em;
+	letter-spacing:0.05em;
+	color:#E14220;
+}
+
+.box2{
+	font-family: 'Do Hyeon', sans-serif;
+	font-size:3em;
+	font-style:bold;
+	
+}
+#features-wrapper {
+		padding: 3em 0 3em 4em;
+	}
+	
+.container {
+		padding-top:1.5em;
+		margin: 0 auto;
+		max-width: 100%;
+		width: 1400px;
+		
+		
+	}
+	
+	
+.row {
+		display: flex;
+		flex-wrap: wrap;
+		box-sizing: border-box;
+		align-items: stretch;
+		
+	}
+
+.row > .colmedium {
+					width: 50%;
+					
+				}
+				
+							
+.box_feature {
+		background: #e4e4e4;
+		padding: 2em;
+		border-radius: 30px;
+		
+	}
+
+.box_feature .inner {
+				padding-bottom:4em;
+			}
+
+.box_feature h2 {
+				font-size: 3em;
+				font-family: 'Noto Sans KR', sans-serif;
+				color:#E14220;
+			}
+
+.box_feature p {
+				margin: 0;
+				font-family: 'Noto Sans KR', sans-serif;
+				letter-spacing:0.05em;
+				font-size:1.7em;
+			}
+
+
+
+
+
